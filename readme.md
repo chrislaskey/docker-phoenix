@@ -4,9 +4,11 @@ Phoenix Framework in Docker
 Automated [Phoenix Framework](http://www.phoenixframework.org/) environment
 built with Docker.
 
-    git clone https://github.com/chrislaskey/docker-phoenix
-    cd docker-phoenix
-    docker-compose up
+```shell
+git clone https://github.com/chrislaskey/docker-phoenix
+cd docker-phoenix
+docker-compose up
+```
 
 License
 ================================================================================
