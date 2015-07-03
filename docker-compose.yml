@@ -1,8 +1,8 @@
 phoenix:
   build: .
-  command: mix phoenix.server
+  command: ../phoenix-server.sh
   ports:
-  - "4000"
+  - "4000:4000"
   volumes:
   - .:/phoenix
   hostname: phoenix

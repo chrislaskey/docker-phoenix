@@ -35,7 +35,9 @@ RUN apt-get install -y node npm
 # Phoenix
 RUN mkdir /phoenix
 WORKDIR /phoenix
+ADD ./phoenix-init.sh ./
 RUN ./phoenix-init.sh
+
 WORKDIR /phoenix/app
 
-CMD ["mix phoenix.server"]
+CMD ["../phoenix-server.sh"]
