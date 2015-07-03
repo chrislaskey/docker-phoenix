@@ -1,0 +1,9 @@
+phoenix:
+  build: .
+  command: mix phoenix.server
+  ports:
+  - "4000"
+  volumes:
+  - .:/phoenix
+  hostname: phoenix
+  domainname: chrislaskey.com
